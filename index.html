@@ -1,0 +1,693 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/jquery-modal.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	
+		<svg style="display: none">
+			<symbol id="arrow" viewBox="0 0 24 24">
+				<path d="M16.172 11L10.808 5.636L12.222 4.222L20 12L12.222 19.778L10.808 18.364L16.172 13H4V11H16.172Z" fill="currentColor"/>
+			</symbol>
+		</svg>
+
+		<div class="wrapper">
+			<div class="banner" style="background-image: url('images/banner-img.jpg')">
+				<header class="header">
+					<div class="container">
+						<div class="header__inner">
+							<a href="#" class="header__logo"><img src="images/svg/logo.svg" alt=""></a>
+							<div class="header__menu">
+								<ul>
+									<li><a href="#services">Услуги</a> </li>
+									<li><a href="#about">О компании</a> </li>
+									<li><a href="#rem">Ремонт автомобиля</a> </li>
+									<li><a href="#reviews">Отзывы</a> </li>
+									<li><a href="#gallery">Галерея</a> </li>
+									<li><a href="#contacts">Контакты</a> </li>
+								</ul>
+
+								<div class="header__info">
+									<div class="header__info-cell">
+										<div class="header__info-icon"><img src="images/svg/phone.svg" alt=""></div>
+										<div class="header__info-tx">
+											<div class="header__info-title">Телефон:</div>
+											<a href="tel:88002002020" class="header__info-link">8-800-200-20-20</a>
+										</div>
+									</div>
+									<div class="header__info-cell">
+										<div class="header__info-icon"><img src="images/svg/wh.svg" alt=""></div>
+										<div class="header__info-tx">
+											<div class="header__info-title">WhatsApp:</div>
+											<a href="tel:88002002020" class="header__info-link">8-800-200-20-20</a>
+										</div>
+									</div>
+									<div class="header__info-cell">
+										<div class="header__info-icon"><img src="images/svg/mp.svg" alt=""></div>
+										<div class="header__info-tx">
+											<div class="header__info-title">Адрес:</div>
+											<div class="header__info-tt">г. Москва, ул. Ленина 87 а</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="header__right">
+								<a href="tel:88002002020" class="header__tel">
+									<span><img src="images/svg/phone.svg" alt=""></span>
+									8-800-200-20-20
+								</a>
+
+								<div class="header__toggler js-toggler">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+				<div class="banner-tx">
+					<div class="container">
+						<div class="banner-tx__inner">
+							<h1>Сварочные работы любого уровня сложности</h1>
+							<p>Надежное оборудование, квалифицированные специалисты производства позволяют изготавливать изделия любой сложности в кратчайшие сроки.</p>
+							<a href="#order" rel="modal:open" class="button button-primary">
+								<span class="tx">Заказать услугу</span>
+								<span class="arrow"><img src="images/svg/arrow.svg" alt=""></span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="banner-numb">
+					<div class="container">
+						<div class="banner-numb__inner">
+							<div class="banner-numb__row">
+								<div class="banner-numb__cell">
+									<div class="banner-numb__nb">15</div>
+									<div class="banner-numb__tx">Лет на рынке</div>
+								</div>
+								<div class="banner-numb__cell">
+									<div class="banner-numb__nb">1450</div>
+									<div class="banner-numb__tx">Довольных клиентов</div>
+								</div>
+								<div class="banner-numb__cell">
+									<div class="banner-numb__nb">34</div>
+									<div class="banner-numb__tx">Сотрудника в штате</div>
+								</div>
+								<div class="banner-numb__cell">
+									<div class="banner-numb__nb">2500</div>
+									<div class="banner-numb__tx">Выполненных заказов</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="services" class="ex">
+				<div class="container">
+					<div class="ex__inner">
+						<div class="ex__tit">
+							<h2><span>Изготавливаем</span>
+								по чертежам и образцам заказчика</h2>
+						</div>
+						<div class="ex__info">
+							<div class="ex__cell">
+								<div class="ex__img"><img src="images/ex-img1.jpg" alt=""></div>
+								<div class="ex__title">Трубные изделия, фланцы</div>
+								<div class="ex__tx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </div>
+								<a href="#order" rel="modal:open" class="ex__link">Заказать услугу 	<svg><use xlink:href="#arrow"></use></svg></a>
+							</div>
+							<div class="ex__cell">
+								<div class="ex__img"><img src="images/ex-img2.jpg" alt=""></div>
+								<div class="ex__title">Сварные ограждения</div>
+								<div class="ex__tx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </div>
+								<a href="#order" rel="modal:open" class="ex__link">Заказать услугу 	<svg><use xlink:href="#arrow"></use></svg></a>
+							</div>
+
+							<div class="ex__cell">
+								<div class="ex__img"><img src="images/ex-img3.jpg" alt=""></div>
+								<div class="ex__title">Баки из нержавеющей стали</div>
+								<div class="ex__tx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </div>
+								<a href="#order" rel="modal:open" class="ex__link">Заказать услугу 	<svg><use xlink:href="#arrow"></use></svg></a>
+							</div>
+							<div class="ex__cell">
+								<div class="ex__img"><img src="images/ex-img4.jpg" alt=""></div>
+								<div class="ex__title">Бытовки (каркас)</div>
+								<div class="ex__tx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </div>
+								<a href="#order" rel="modal:open" class="ex__link">Заказать услугу 	<svg><use xlink:href="#arrow"></use></svg></a>
+							</div>
+
+							<div class="ex__cell">
+								<div class="ex__img"><img src="images/ex-img5.jpg" alt=""></div>
+								<div class="ex__title">Торгово - складское оборудование</div>
+								<div class="ex__tx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </div>
+								<a href="#order" rel="modal:open" class="ex__link">Заказать услугу 	<svg><use xlink:href="#arrow"></use></svg></a>
+							</div>
+							<div class="ex__cell">
+								<div class="ex__img"><img src="images/ex-img6.jpg" alt=""></div>
+								<div class="ex__title">Лестницы, перила, навесы и т.п.</div>
+								<div class="ex__tx">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </div>
+								<a href="#order" rel="modal:open" class="ex__link">Заказать услугу 	<svg><use xlink:href="#arrow"></use></svg></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="call">
+				<div class="container">
+					<div class="call__inner">
+						<div class="call__tx">
+							<h2>Вы можете написать нам</h2>
+							<div class="call__tt">Мы всегда оперативно отвечаем на сообщения</div>
+							<p>Заполните форму на сайте или напишите письмо нам на адрес электронной почты. Наши менеджеры постараются как можно более опреративно и полно ответить на ваш вопрос.</p>
+							<div class="call__btn">
+								<a href="#call" rel="modal:open"  class="button button-primary">
+									<span class="tx">Написать сообщение</span>
+									<span class="arrow"><img src="images/svg/arrow.svg" alt=""></span>
+								</a>
+								<div class="button mail">
+									<span class="tx" id="text">Pochta@gmail.com</span>
+									<span class="arrow"><img src="images/svg/mail.svg" alt=""></span>
+
+									<div class="mail__drop">
+										<span >Скопировать</span> адрес электронной почты
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="call__img">
+							<img src="images/img1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="about" class="choice">
+				<div class="container">
+					<div class="choice__inner">
+						<div class="choice__img">
+							<img src="images/img1.jpg" alt="">
+						</div>
+
+						<div class="choice__tx">
+							<h2>Почему вам стоит выбрать именно <span>ABBA group</span>?</h2>
+							<p>В нашей мастерской используется современное техническое оснащение, а Вашим заказом будет заниматься мастера своего дела.</p>
+
+							<div class="choice__list">
+								<div class="choice__list-cell">
+									<img src="images/svg/icon1.svg" alt="">
+									<div class="choice__list-title">Квалифицированные специалисты</div>
+									<div class="choice__list-tx">Все наши сотрудники являются мастерами своего дела</div>
+								</div>
+								<div class="choice__list-cell">
+									<img src="images/svg/icon2.svg" alt="">
+									<div class="choice__list-title">Гарантия на работы 3 года</div>
+									<div class="choice__list-tx">На самом деле наше издеоие прослужит вам намного дольше</div>
+								</div>
+								<div class="choice__list-cell">
+									<img src="images/svg/icon3.svg" alt="">
+									<div class="choice__list-title">Качественные материалы</div>
+									<div class="choice__list-tx">Мы работаем только с проверенным сертифицированным сырьем</div>
+								</div>
+								<div class="choice__list-cell">
+									<img src="images/svg/icon4.svg" alt="">
+									<div class="choice__list-title">Демократичные цены</div>
+									<div class="choice__list-tx">Как показывает практика, наши цены приятно удивляют клиентов</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tags">
+				<div class="container">
+					<div class="tags__inner">
+						<div class="tags__title">
+							<h2>Мы работаем с различными металлами и сплавами</h2>
+						</div>
+						<div class="tags__list">
+							<div class="tags__list-cell">Железо</div>
+							<div class="tags__list-cell">Нержавеющая сталь</div>
+							<div class="tags__list-cell">Чугун</div>
+							<div class="tags__list-cell">Медь</div>
+							<div class="tags__list-cell">Титан</div>
+							<div class="tags__list-cell">Алюминий</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div  id="rem" class="repair">
+				<div class="container">
+					<div class="repair__inner">
+						<div class="repair__tx">
+							<h2>Выполняем <span>ремонт</span> деталей <span>автомобиля</span></h2>
+
+							<ul class="tabs">
+								<li class="tab-link current" data-tab="tab-1">Топливные баки</li>
+								<li class="tab-link" data-tab="tab-2">Радиаторы</li>
+								<li class="tab-link" data-tab="tab-3">Выхлопные трубы</li>
+								<li class="tab-link" data-tab="tab-4">Колесные диски</li>
+								<li class="tab-link" data-tab="tab-5">Впускной и выпускной коллектор</li>
+								<li class="tab-link" data-tab="tab-6">Чугунные и алюминиевые блоки двигателя</li>
+								<li class="tab-link" data-tab="tab-7">Алюминиевый прицеп</li>
+							</ul>
+						</div>
+						<div class="repair__about">
+							<div id="tab-1" class="tab-content current">
+								<div class="repair__about-inner">
+									<img src="images/ab1.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+							<div id="tab-2" class="tab-content">
+								<div class="repair__about-inner">
+									<img src="images/ab2.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+							<div id="tab-3" class="tab-content">
+								<div class="repair__about-inner">
+									<img src="images/ab3.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+							<div id="tab-4" class="tab-content">
+								<div class="repair__about-inner">
+									<img src="images/ab4.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+							<div id="tab-5" class="tab-content">
+								<div class="repair__about-inner">
+									<img src="images/ab5.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+							<div id="tab-6" class="tab-content">
+								<div class="repair__about-inner">
+									<img src="images/ab6.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+							<div id="tab-7" class="tab-content">
+								<div class="repair__about-inner">
+									<img src="images/ab7.jpg" alt="">
+									<div class="repair__about-tx">В процессе длительной эксплуатации автомобиля бензобак может прийти в негодность. Практически все неисправности бензобака мы можем устранить в кратчайшие сроки.</div>
+									<a href="#order" rel="modal:open"  class="repair__about-link">Заказать услугу <svg><use xlink:href="#arrow"></use></svg></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bg">
+				<div id="reviews" class="reviews">
+					<div class="container">
+						<div class="reviews__inner">
+							<div class="reviews__slider-for js-reviews-for">
+								<div class="reviews__slider-for-item">
+									<div class="reviews__slider-for-inner">
+										<div class="reviews__slider-for-tx">Специалисты отличные, высокий профессионализм, отношение к клиенту гибкое и лояльное, с удовольствием помогут дельным советом. Цены адекватны, согласно трудозатратам. При отсутсвии материалов с радостью предложили альтернативу. Рекомендую. </div>
+									</div>
+								</div>
+								<div class="reviews__slider-for-item">
+									<div class="reviews__slider-for-inner">
+										<div class="reviews__slider-for-tx">Специалисты отличные, высокий профессионализм, отношение к клиенту гибкое и лояльное, с удовольствием помогут дельным советом. Цены адекватны, согласно трудозатратам. При отсутсвии материалов с радостью предложили альтернативу. Рекомендую.3 </div>
+									</div>
+								</div>
+								<div class="reviews__slider-for-item">
+									<div class="reviews__slider-for-inner">
+										<div class="reviews__slider-for-tx">Специалисты отличные, высокий профессионализм, отношение к клиенту гибкое и лояльное, с удовольствием помогут дельным советом. Цены адекватны, согласно трудозатратам. При отсутсвии материалов с радостью предложили альтернативу. Рекомендую.4 </div>
+									</div>
+								</div>
+								<div class="reviews__slider-for-item">
+									<div class="reviews__slider-for-inner">
+										<div class="reviews__slider-for-tx">Специалисты отличные, высокий профессионализм, отношение к клиенту гибкое и лояльное, с удовольствием помогут дельным советом. Цены адекватны, согласно трудозатратам. При отсутсвии материалов с радостью предложили альтернативу. Рекомендую. 5</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="reviews__slider-nav js-reviews-nav">
+								<div class="reviews__slider-nav-item">
+									<div class="reviews__slider-nav-inner">
+										<div class="reviews__slider-nav-ava"><img src="images/ava1.jpg" alt=""></div>
+										<div class="reviews__slider-nav-name">Cергей Иванов</div>
+									</div>
+								</div>
+								<div class="reviews__slider-nav-item">
+									<div class="reviews__slider-nav-inner">
+										<div class="reviews__slider-nav-ava"><img src="images/ava2.jpg" alt=""></div>
+										<div class="reviews__slider-nav-name">Александр Семенов</div>
+									</div>
+								</div>
+								<div class="reviews__slider-nav-item">
+									<div class="reviews__slider-nav-inner">
+										<div class="reviews__slider-nav-ava"><img src="images/ava3.jpg" alt=""></div>
+										<div class="reviews__slider-nav-name">Константин Яковлев</div>
+									</div>
+								</div>
+								<div class="reviews__slider-nav-item">
+									<div class="reviews__slider-nav-inner">
+										<div class="reviews__slider-nav-ava"><img src="images/ava4.jpg" alt=""></div>
+										<div class="reviews__slider-nav-name">Юрий Иванов</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="gallery" class="gallery">
+					<div class="container">
+						<div class="gallery__inner">
+							<h2>Галерея</h2>
+							<div class="gallery__slider js-gallery">
+								<div class="gallery__slider-item">
+									<a href="images/foto1.jpg" data-fancybox="gallery" class="gallery__slider-inner" style="background-image: url('images/foto1.jpg')"></a>
+								</div>
+								<div class="gallery__slider-item">
+									<a href="images/foto1.jpg" data-fancybox="gallery" class="gallery__slider-inner" style="background-image: url('images/foto1.jpg')"></a>
+								</div>
+								<div class="gallery__slider-item">
+									<a href="images/foto1.jpg" data-fancybox="gallery" class="gallery__slider-inner" style="background-image: url('images/foto1.jpg')"></a>
+								</div>
+								<div class="gallery__slider-item">
+									<a href="images/foto1.jpg" data-fancybox="gallery" class="gallery__slider-inner" style="background-image: url('images/foto1.jpg')"></a>
+								</div>
+								<div class="gallery__slider-item">
+									<a href="images/foto1.jpg" data-fancybox="gallery" class="gallery__slider-inner" style="background-image: url('images/foto1.jpg')"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer" id="contacts">
+				<div class="footer-top">
+					<div class="container">
+						<div class="footer-top__inner">
+							<div class="footer-top__info">
+								<div class="footer-top__info-title">Мы всегда на связи</div>
+								<p>Мы всегда стараемся оперативно отвечать на все ваши сообщения.</p>
+								<p>Вы можете отправить e-mail <a href="mailto:Pochta@gmail.com">Pochta@gmail.com</a> </p>
+
+								<div class="footer-top__cont">
+									<div class="header__info">
+										<div class="header__info-cell">
+											<div class="header__info-icon"><img src="images/svg/phone.svg" alt=""></div>
+											<div class="header__info-tx">
+												<div class="header__info-title">Телефон:</div>
+												<a href="tel:88002002020" class="header__info-link">8-800-200-20-20</a>
+											</div>
+										</div>
+										<div class="header__info-cell">
+											<div class="header__info-icon"><img src="images/svg/wh.svg" alt=""></div>
+											<div class="header__info-tx">
+												<div class="header__info-title">WhatsApp:</div>
+												<a href="tel:88002002020" class="header__info-link">8-800-200-20-20</a>
+											</div>
+										</div>
+										<div class="header__info-cell">
+											<div class="header__info-icon"><img src="images/svg/mp.svg" alt=""></div>
+											<div class="header__info-tx">
+												<div class="header__info-title">Адрес:</div>
+												<div class="header__info-tt">г. Москва, ул. Ленина 87 а</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="footer-top__form">
+								<form>
+									<div class="form">
+										<div class="form__title">Напишите нам сообщение</div>
+
+										<div class="form__inner">
+											<div class="form__row form__row-flex">
+												<div class="form__cell">
+													<input id="name" class="form__input form__input-effect" type="text">
+													<label for="name">Имя</label>
+
+													<span class="validation validateName">
+														<span class="nameValidationImg"></span>
+    											</span>
+												</div>
+												<div class="form__cell form__cell_phone is-empty">
+													<input id="phone" class="phone-mask form__input is-dirty is-empty" name="phone-number" type="text" data-fieldname="phone">
+													<label for="phone">Телефон</label>
+
+													<span class="validation validatePhone">
+														<span class="phoneValidationImg"></span>
+    											</span>
+												</div>
+											</div>
+											<div class="form__row">
+												<div class="form__cell">
+													<textarea id="tx" class="form__input form__input-effect"></textarea>
+													<label for="tx">Сообщение</label>
+												</div>
+											</div>
+											<div class="form__row">
+												<div class="form__cell">
+													<div class="form__file">
+														<div class="fl">
+															<label for="attachment"><a class="bt" role="button" aria-disabled="false"> Прикрепить файл </a></label><input type="file" name="file[]" id="attachment" class="attachment" style="visibility: hidden; position: absolute;" multiple/>
+														</div>
+														<div class="files-area">
+															<div class="filesList">
+																<div class="files-names"></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form__row">
+												<div class="form__cell">
+													<div class="form__check">
+														<input type="checkbox" id="check" checked>
+														<label for="check">Нажимая «Отправить сообщение», Вы подтверждаете, что ознакомились с <a href="#">Условиями обработки персональных данных</a> и принимаете их.</label>
+													</div>
+												</div>
+											</div>
+
+											<div class="form__row">
+												<div class="form__cell">
+													<button type="button" class="button button-primary submitBtn">
+														<span class="tx">Отправить сообщение</span>
+														<span class="arrow"><img src="images/svg/arrow.svg" alt=""></span>
+													</button>
+												</div>
+											</div>
+
+
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="footer-bottom__inner">
+							<div class="footer-bottom__info">
+								<a href="#" class="footer__logo"><img src="images/svg/logo.svg" alt=""></a>
+								<p>Производственно-монтажная компания, специализирующаяся на сварочных работах в Московском регионе</p>
+							</div>
+							<div class="footer__menu">
+								<ul>
+									<li><a href="#services">Услуги</a> </li>
+									<li><a href="#about">О компании</a> </li>
+									<li><a href="#rem">Ремонт автомобиля</a> </li>
+								</ul>
+								<ul>
+									<li><a href="#reviews">Отзывы</a> </li>
+									<li><a href="#gallery">Галерея</a> </li>
+									<li><a href="#contacts">Контакты</a> </li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-bottom__inner">
+							<div class="footer__copy">Все права защищены ©</div>
+							<a href="#" class="footer__dev"><img src="images/svg/lg.svg" alt=""> Разработано MEVEN</a>
+
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<div id="order" class="modal">
+			<div class="modal__inner">
+				<form>
+					<div class="form">
+						<div class="form__title">Заказать ремонт <span>топливного бака</span></div>
+						<div class="form__tx">Наши менеджеры ответят вам как только ознакомятся с заявкой</div>
+
+						<div class="form__inner">
+							<div class="form__row form__row-flex">
+								<div class="form__cell">
+									<input id="name2" class="form__input form__input-effect" type="text">
+									<label for="name2">Имя</label>
+
+									<span class="validation validateName2">
+														<span class="nameValidationImg2"></span>
+    											</span>
+								</div>
+								<div class="form__cell form__cell_phone is-empty">
+									<input id="phone2" class="phone-mask form__input is-dirty is-empty" name="phone-number" type="text" data-fieldname="phone">
+									<label for="phone2">Телефон</label>
+
+									<span class="validation validatePhone2">
+														<span class="phoneValidationImg2"></span>
+    											</span>
+								</div>
+							</div>
+							<div class="form__row">
+								<div class="form__cell">
+									<textarea id="tx2" class="form__input form__input-effect"></textarea>
+									<label for="tx2">Сообщение</label>
+								</div>
+							</div>
+							<div class="form__row">
+								<div class="form__cell">
+									<div class="form__file">
+										<div class="fl">
+											<label for="attachment2"><a class="bt" role="button" aria-disabled="false"> <span>Прикрепить файл</span></a></label><input type="file" name="file[]" id="attachment2" class="attachment2"  style="visibility: hidden; position: absolute;" multiple/>
+										</div>
+										<div class="files-area2">
+											<div class="filesList2">
+												<div class="files-names2"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form__row">
+								<div class="form__cell">
+									<div class="form__check">
+										<input type="checkbox" id="check2" checked>
+										<label for="check2">Нажимая «Отправить сообщение», Вы подтверждаете, что ознакомились с <a href="#">Условиями обработки персональных данных</a> и принимаете их.</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="form__row">
+								<div class="form__cell">
+									<button type="button" class="button button-primary submitBtn2">
+										<span class="tx">Отправить сообщение</span>
+										<span class="arrow"><img src="images/svg/arrow.svg" alt=""></span>
+									</button>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="call" class="modal">
+			<div class="modal__inner">
+				<form>
+					<div class="form">
+						<div class="form__title">Напишите нам сообщение</div>
+						<div class="form__tx">Наши менеджеры ответят вам как только ознакомятся с заявкой</div>
+
+						<div class="form__inner">
+							<div class="form__row form__row-flex">
+								<div class="form__cell">
+									<input id="name3" class="form__input form__input-effect" type="text">
+									<label for="name3">Имя</label>
+
+									<span class="validation validateName3">
+														<span class="nameValidationImg3"></span>
+    											</span>
+								</div>
+								<div class="form__cell form__cell_phone is-empty">
+									<input id="phone3" class="phone-mask form__input is-dirty is-empty" name="phone-number" type="text" data-fieldname="phone">
+									<label for="phone3">Телефон</label>
+
+									<span class="validation validatePhone3">
+														<span class="phoneValidationImg3"></span>
+    											</span>
+								</div>
+							</div>
+							<div class="form__row">
+								<div class="form__cell">
+									<textarea id="tx3" class="form__input form__input-effect"></textarea>
+									<label for="tx3">Сообщение</label>
+								</div>
+							</div>
+							<div class="form__row">
+								<div class="form__cell">
+									<div class="form__check">
+										<input type="checkbox" id="check3" checked>
+										<label for="check3">Нажимая «Отправить сообщение», Вы подтверждаете, что ознакомились с <a href="#">Условиями обработки персональных данных</a> и принимаете их.</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="form__row">
+								<div class="form__cell">
+									<button type="button" class="button button-primary submitBtn3">
+										<span class="tx">Отправить сообщение</span>
+										<span class="arrow"><img src="images/svg/arrow.svg" alt=""></span>
+									</button>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="send" class="modal">
+			<div class="modal__inner">
+				<form>
+					<div class="form">
+						<div class="form__title">Ваше сообщение успешно отправлено!</div>
+						<div class="form__tx">Спасибо за ваше обращение, мы свяжемся с вами в ближайшем времени</div>
+
+						<div class="form__row">
+							<div class="form__cell">
+								<a href="#" rel="modal:close" type="submit" class="button button-primary">
+									<span class="tx">Вернуться к сайту</span>
+									<span class="arrow"><img src="images/svg/arrow.svg" alt=""></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+		<script src="js/script-jquery.js"></script>
+		<script src="js/jquery-modal.js"></script>
+		<script src="js/masktel.js"></script>
+		<script src="js/jquery.fancybox.js"></script>
+		<script src="js/slick.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
