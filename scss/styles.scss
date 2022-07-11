@@ -2244,6 +2244,46 @@ h2 {
 
 
 
+.remodal {
+  padding: 0;
+  max-width: 560px;
+
+  text-align: left;
+
+  &-overlay {
+    background: rgba(40, 44, 63, 0.8);
+  }
+
+  .form {
+    padding: 40px;
+
+    @media screen and(max-width: 991px) {
+      padding: 20px;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.remodal-close {
+  top: -40px!important;
+  right: -40px!important;
+  left: inherit!important;
+
+  background-image: url("../images/svg/close2.svg")!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain!important;
+  color: transparent!important;
+  background-size: 20px 20px!important;
+
+  @media screen and(max-width: 991px) {
+    right: -20px!important;
+  }
+}
+
 
 
 

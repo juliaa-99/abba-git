@@ -385,3 +385,12 @@ h2 span { color: #2E54DA; }
 .modal .form { padding: 20px 10px; }
 @media screen and (max-width: 991px) { .modal .form { padding: 0; } }
 .modal .form__title { margin-bottom: 20px; }
+
+.remodal { padding: 0; max-width: 560px; text-align: left; }
+.remodal-overlay { background: rgba(40, 44, 63, 0.8); }
+.remodal .form { padding: 40px; }
+@media screen and (max-width: 991px) { .remodal .form { padding: 20px; } }
+.remodal .form__title { margin-bottom: 20px; }
+
+.remodal-close { top: -40px !important; right: -40px !important; left: inherit !important; background-image: url("../images/svg/close2.svg") !important; background-repeat: no-repeat; background-position: center; background-size: contain !important; color: transparent !important; background-size: 20px 20px !important; }
+@media screen and (max-width: 991px) { .remodal-close { right: -20px !important; } }
